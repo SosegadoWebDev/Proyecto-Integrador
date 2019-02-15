@@ -150,18 +150,26 @@ h3, h2, h4 {
     border-top: 1px solid white; 
     padding-top: 10px;
 }
+.zoomIn {
+    animation-name: zoomIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0;
+}
 .img3 {
     width: 400px;
-    height: 350px; 
+    height: 350px;
 }
 .listimg {
     text-align: center;
 }
-.listimg li {
+.listimg .imgindex {
     display: inline-block;
     position: relative;
     padding: 0;
     margin: 0;
+    z-index: 1;
 }
 .overlay {
     width: 100%;
@@ -177,8 +185,8 @@ h3, h2, h4 {
     opacity: 0.5;
     transition: ease all 0.5s;
 }
-.listimg li:hover .overlay {
-    opacity: 0;
+.listimg .imgindex:hover .overlay {
+    display: none;
 }
 .divimg {
     position: relative;
@@ -210,10 +218,8 @@ h3, h2, h4 {
     right: 15%;
     z-index: 666;
 }
-.zoomIn {
-    animation-name: zoomIn;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 0;
+.imgindex:hover {
+    transform: scale(1.5, 1.5);
+    z-index: 666;
+    transition: ease all 1s;
 }
