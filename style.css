@@ -13,7 +13,6 @@ nav ul li {
     display: inline-block;
     padding: 25px;
     width: 20%;
-    transition: ease all 1s;
 }
 a {
     text-decoration: none;
@@ -24,7 +23,6 @@ nav ul li:hover {
     transition: ease all 0.7s;
 }
 body { 
-    /*background: url(com.nystrom.blackwallpaper_4.png); /*No repeat (para que no repita el fondo varias veces), center center para centrar el fondo en caso de que sea pequeño */ 
     background-image: url(https://f4.bcbits.com/img/a3095505076_10.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -74,6 +72,7 @@ h1 {
     font-size: 40px;
     font-family: 'Cinzel Decorative', cursive;
     margin-bottom: 0;
+    height: 54px;
 }
 #bandname {
     text-align: center;
@@ -97,7 +96,6 @@ ol li {
     z-index: -666;
     padding: 0;
     opacity: 0;
-    transition: ease all 0.7s;
 }
 .submenu li {
     display: block;
@@ -112,6 +110,7 @@ ol li {
 .menu li:hover .submenu {
     opacity: 1;
     z-index: 666;
+    transition: ease all 0.7s;
 }
 .submenuespecial {
     padding: 0;
@@ -125,7 +124,7 @@ ol li {
     opacity: 0;
     background-color: rgba(204, 198, 198, 0.4);
     z-index: -666;
-    transition: ease all 1s;
+    transition: ease all 0.7s;
 }
 .submenuespecial li {
     padding: 0;
@@ -150,12 +149,49 @@ h3, h2, h4 {
     border-top: 1px solid white; 
     padding-top: 10px;
 }
-.zoomIn {
-    animation-name: zoomIn;
+.animationtitle {
+    animation-name: animationtitle;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: 0;
+}
+@keyframes animationtitle{
+    0% { 
+        font-size: 5px;
+        opacity: 0.1;
+        height: 54px; 
+    }
+    20% { 
+        font-size: 10px;
+        opacity: 0.2;
+        height: 54px;
+    }
+    40% {
+        font-size: 15px;
+        opacity: 0.3; 
+        height: 54px;
+    }
+    60% {
+        font-size: 20px;
+        opacity: 0.4;
+        height: 54px;
+    }
+    80% {
+        font-size: 25px;
+        opacity: 0.6;
+        height: 54px;
+    }
+    90% {
+        font-size: 30px;
+        opacity: 0.7;
+        height: 54px;
+    }
+    100% {
+        font-size: 40px;
+        opacity: 0.8;
+        height: 54px;
+    }
 }
 .img3 {
     width: 400px;
@@ -195,12 +231,12 @@ h3, h2, h4 {
     position: absolute;
     top: 20%;
     left: 60%;
-    z-index: -100000;
+    z-index: -666;
     opacity: 0;
-    transition: ease all 1s;
 }
 .menuimg .divimg:hover .listmenu {
     opacity: 1;
+    transition: ease all 1s;
 }
 .menuimg .divimg .imgdiscografia {
     width: 540px;
