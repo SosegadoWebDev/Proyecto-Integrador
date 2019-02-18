@@ -1,0 +1,55 @@
+[33mcommit 64a613642af95c085ab96a291c2bd80b468b0afb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jaime González <arcarius11@gmail.com>
+Date:   Mon Feb 18 11:06:01 2019 -0300
+
+    Node.js instalation
+
+[33mcommit ed9f504627420575a08d306c529cae43ffb8cdae[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: d5e3b6b c949dc7
+Author: Jaime González <arcarius11@gmail.com>
+Date:   Sat Feb 16 01:06:26 2019 -0300
+
+    Merge branch 'master' of https://github.com/SosegadoWebDev/Proyecto-Integrador
+
+[33mcommit d5e3b6bb8a5fe3be95f6f2c4c800c552c0f362d0[m
+Author: Jaime González <arcarius11@gmail.com>
+Date:   Sat Feb 16 00:53:00 2019 -0300
+
+    correción animacion y error en listas con transition
+
+[33mcommit c949dc773e34d0b0a23bcb9373c8bf343ef609a1[m
+Author: Jaime Ricardo González Montenegro <40503825+SosegadoWebDev@users.noreply.github.com>
+Date:   Fri Feb 15 22:39:38 2019 -0300
+
+    cambios en la animacion
+
+[33mcommit 2f0766713bec87dcfae3569e73d8542fb292f15a[m
+Author: Jaime González <arcarius11@gmail.com>
+Date:   Thu Feb 14 22:47:51 2019 -0300
+
+    titulos en animación e imagenes en transition
+
+[33mcommit d55cb76507346e2a5e5e2365b20457c039eed949[m
+Merge: aee504e a2635ce
+Author: Jaime González <arcarius11@gmail.com>
+Date:   Wed Feb 13 21:46:20 2019 -0300
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+[33mcommit aee504e4e502a4420d9de4354533e960f30c78f2[m
+Author: Jaime González <arcarius11@gmail.com>
+Date:   Wed Feb 13 20:53:52 2019 -0300
+
+    Modifación de transition en listas
+
+[33mcommit a2635ce4d2483b3c0263d0be40f0ffcce2245f93[m
+Author: Jaime Ricardo González Montenegro <40503825+SosegadoWebDev@users.noreply.github.com>
+Date:   Tue Feb 12 13:16:19 2019 -0300
+
+    add info
+
+[33mcommit e48b7faa6e7b35d86237e3ec744986db1d5c8ee3[m[33m ([m[1;32mdesign[m[33m)[m
+Author: Jaime González <arcarius11@gmail.com>
+Date:   Tue Feb 12 12:33:25 2019 -0300
+
+    Primera_version (pruebadesignbranch)
