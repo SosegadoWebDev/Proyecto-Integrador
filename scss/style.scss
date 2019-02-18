@@ -1,0 +1,17 @@
+$fondo: black;
+$border-caja: 1px solid red;
+ul {
+    list-style: none;
+    li {
+        padding: 10px;
+        background-color: $fondo;
+        a{
+            text-decoration: none;
+            font-size: 30px;
+        }
+    }
+}
+div {
+    background-color: $fondo;
+    border: $border-caja;
+}
