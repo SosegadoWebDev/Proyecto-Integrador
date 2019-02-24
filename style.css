@@ -4,6 +4,7 @@
 .h5 {
     font-family: 'Cormorant Infant', serif;
     font-size: 15px;
+    font-weight: 200;
 }
 nav {
     margin: 0;
@@ -58,6 +59,12 @@ body {
     height: 450px;
     margin: 0 auto;
 }
+tr td li {
+    border: solid 1px black;
+}
+.articleselect table {
+    border: solid 1px black;
+}
 .largeinput {
     width: 70%;
     height: 20px;
@@ -83,7 +90,7 @@ h1 {
     text-align: center;
     letter-spacing: 50px;
     margin-top: 60px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 li {
     list-style: url(img/sword.png);
@@ -266,6 +273,9 @@ h3, h2, h4 {
     right: 15%;
     z-index: 666;
 }
+.menuimg p {
+    padding-bottom: 20px;
+}
 .footer ul li {
     list-style: none;
 }
@@ -276,18 +286,18 @@ h3, h2, h4 {
     align-items: center;
 }
 .footer ul li a {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.5);
 }
 .footer {
     margin: 0;
     margin-top: 60px;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0);
     width: 100%;
     position: relative;
 }
 .textfooter {
-    color: rgba(255, 255, 255, 0.281);
+    color: rgba(255, 255, 255, 0.5);
     margin: 0;
     margin-top: 10px;
     padding-bottom: 25px;
@@ -303,4 +313,11 @@ h3, h2, h4 {
     position: absolute;
     top: 90px;
     left: 40%;
+}
+.backgroundblackopacity div {
+    background-color: rgba(0, 0, 0, 0.158);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 50px;
+    height: 40px;
 }
