@@ -276,23 +276,23 @@ h3, h2, h4 {
 .menuimg p {
     padding-bottom: 20px;
 }
-footer ul li {
+footer .textocentrado li {
     list-style: none;
 }
-footer ul {
+footer .textocentrado {
     height: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-footer ul li a {
+footer .textocentrado li a {
     color: rgba(255, 255, 255, 0.5);
 }
 footer {
     margin: 0;
     margin-top: 60px;
     padding: 0;
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     position: relative;
 }
@@ -302,7 +302,7 @@ footer {
     margin-top: 10px;
     padding-bottom: 25px;
 }
-footer div {
+footer .navfooter {
     background-color: rgba(255, 255, 255, 0.404);
     width: 20%;
     height: 40px;
@@ -316,9 +316,6 @@ footer div {
 }
 footer .textocentrado li {
     font-family: 'Cinzel Decorative', cursive;
-} 
-.backgroundblackopacity div {
-    background-color: rgba(0, 0, 0, 0.158);
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 50px;
