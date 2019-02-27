@@ -276,19 +276,19 @@ h3, h2, h4 {
 .menuimg p {
     padding-bottom: 20px;
 }
-.footer ul li {
+footer ul li {
     list-style: none;
 }
-.footer ul {
+footer ul {
     height: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer ul li a {
+footer ul li a {
     color: rgba(255, 255, 255, 0.5);
 }
-.footer {
+footer {
     margin: 0;
     margin-top: 60px;
     padding: 0;
@@ -302,7 +302,7 @@ h3, h2, h4 {
     margin-top: 10px;
     padding-bottom: 25px;
 }
-.footer div {
+footer div {
     background-color: rgba(255, 255, 255, 0.404);
     width: 20%;
     height: 40px;
@@ -314,7 +314,7 @@ h3, h2, h4 {
     top: 90px;
     left: 40%;
 }
-.footer .textocentrado li {
+footer .textocentrado li {
     font-family: 'Cinzel Decorative', cursive;
 } 
 .backgroundblackopacity div {
