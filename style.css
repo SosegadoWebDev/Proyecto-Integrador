@@ -301,10 +301,9 @@ h3, h2, h4 {
     margin: 0;
     margin-top: 10px;
     padding-bottom: 25px;
-    text-align: center;
 }
 .footer div {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.404);
     width: 20%;
     height: 40px;
     margin: auto;
@@ -315,6 +314,9 @@ h3, h2, h4 {
     top: 90px;
     left: 40%;
 }
+.footer .textocentrado li {
+    font-family: 'Cinzel Decorative', cursive;
+} 
 .backgroundblackopacity div {
     background-color: rgba(0, 0, 0, 0.158);
 }
