@@ -276,19 +276,19 @@ h3, h2, h4 {
 .menuimg p {
     padding-bottom: 20px;
 }
-footer .textocentrado li {
+.footer .textocentrado li {
     list-style: none;
 }
-footer .textocentrado {
+.footer .textocentrado {
     height: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-footer .textocentrado li a {
+.footer .textocentrado li a {
     color: rgba(255, 255, 255, 0.5);
 }
-footer {
+.footer {
     margin: 0;
     margin-top: 60px;
     padding: 0;
@@ -302,7 +302,7 @@ footer {
     margin-top: 10px;
     padding-bottom: 25px;
 }
-footer .navfooter {
+.footer .navfooter {
     background-color: rgba(255, 255, 255, 0.404);
     width: 20%;
     height: 40px;
@@ -314,10 +314,104 @@ footer .navfooter {
     top: 90px;
     left: 40%;
 }
-footer .textocentrado li {
+.footer .textocentrado li {
     font-family: 'Cinzel Decorative', cursive;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 50px;
     height: 40px;
+}
+.pos-f-t {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .pos-f-t {
+        display: block;
+    }
+    #bandname {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        letter-spacing: 15px;
+    }
+    h1 {
+        font-size: 20px;
+        font-family: 'Cinzel Decorative', cursive;
+        margin-bottom: 10px;
+        height: 35px;
+    }
+    @keyframes animationtitle{
+        0% { 
+            font-size: 5px;
+            opacity: 0.1;
+            height: 35px; 
+        }
+        20% { 
+            font-size: 7px;
+            opacity: 0.2;
+            height: 35px;
+        }
+        40% {
+            font-size: 10px;
+            opacity: 0.3; 
+            height: 35px;
+        }
+        60% {
+            font-size: 13px;
+            opacity: 0.4;
+            height: 35px;
+        }
+        80% {
+            font-size: 15px;
+            opacity: 0.6;
+            height: 35px;
+        }
+        90% {
+            font-size: 17px;
+            opacity: 0.7;
+            height: 35px;
+        }
+        100% {
+            font-size: 19px;
+            opacity: 0.8;
+            height: 35px;
+        }
+    }
+    nav {
+        display: none;
+    }
+    .menuxs {
+        margin: 0;
+        margin-left: 10px;
+        padding: 0;
+    }
+    .menuxs li {
+        list-style: none;
+    }
+    .pos-f-t .collapse div {
+        margin: 0;
+        padding: 0 !important;
+    }
+    .pos-f-t {
+        background-color: black;
+        margin-bottom: 10px;
+    }
+    .menuxsimg img {
+        width: 160px;
+        height: 120px;
+        position: absolute;
+        top: 30px;
+        right: 10%;
+        z-index: 2;
+    }
+    .bg-black {
+        background-color: black;
+    }
+    header {
+        margin: 0;
+        text-align: center;
+    }
+    .menuxs li a {
+        color: gray;
+    }
 }
