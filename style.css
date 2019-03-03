@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .h5 {
     font-family: 'Cormorant Infant', serif;
     font-size: 25px;
@@ -168,9 +171,10 @@ h3, h2, h4 {
     opacity: 0.5;
     transition: ease all 1s;
 }
-.margintop {
+.paddingtop {
     border-top: 1px solid white; 
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 12px;
 }
 .animationtitle {
     animation-name: animationtitle;
@@ -330,6 +334,9 @@ h3, h2, h4 {
     width: 50px;
     height: 40px;
 }
+.carousel {
+    margin-bottom: 15px;
+}
 .pos-f-t {
     display: none;
 }
@@ -472,7 +479,7 @@ h3, h2, h4 {
         top: 50px;
         left: 25%;
     }
-    /*terminar el footer*/
+    /*termina el footer*/
     section .textocentrado {
         width: 100%;
         margin: 0;
@@ -537,9 +544,6 @@ h3, h2, h4 {
     }
     .listadeimagenes .contenedordeimagen:hover .overlay {
         display: none;
-    }
-    .carousel {
-        margin-bottom: 10px;
     }
 }
 @media only screen and (min-width: 481px) and (max-width:1024px) {
@@ -682,7 +686,7 @@ h3, h2, h4 {
         top: 50px;
         left: 25%;
     }
-    /*terminar el footer*/
+    /*termina el footer*/
     section .textocentrado {
         width: 100%;
         margin: 0;
@@ -693,6 +697,64 @@ h3, h2, h4 {
         text-align: center;
         width: 60%;
         margin: auto;
+    }
+    /*galeria de videos*/
+    .carousel {
+        margin-bottom: 40px;
+    }
+    .carousel-inner .carousel-item iframe {
+        width: 70% !important;
+        height: 300px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 35px;
+        height: 30px;
+    }
+    /*galeria de imagenes*/
+    .imagengaleria {
+        width: 420px;
+        height: 350px;
+    }
+    .listadeimagenes {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        justify-content: center;
+    }
+    .listadeimagenes .contenedordeimagen {
+        display: inline-block;
+        position: relative;
+        width: 420px;
+        padding: 0;
+        padding-bottom: 5px;
+        margin: 0;
+        z-index: 1;
+    }
+    .contenedordeimagen:hover {
+        transform: scale(1.55, 1.65);
+        z-index: 666;
+        transition: ease all 1s;
+    }
+    .overlay {
+        width: 100%;
+        height: 350px;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: aliceblue;
+        position: absolute;
+        top: 0;
+        left: 0;
+        line-height: 350px;
+        opacity: 0.5;
+        transition: ease all 0.5s;
+    }
+    .listadeimagenes .contenedordeimagen:hover .overlay {
+        display: none;
     }
 }
 /*galeria con jquery*/
