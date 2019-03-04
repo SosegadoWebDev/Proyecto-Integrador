@@ -353,6 +353,9 @@ h3, h2, h4 {
         margin-bottom: 10px;
         letter-spacing: 15px;
     }
+    #iniciodepagina {
+        font-size: 18px;
+    }
     h1 {
         font-size: 20px;
         font-family: 'Cinzel Decorative', cursive;
