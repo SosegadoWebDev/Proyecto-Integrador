@@ -30,7 +30,7 @@ nav ul li:hover {
     transition: ease all 0.7s;
 }
 body { 
-    background-image: url(https://f4.bcbits.com/img/a3095505076_10.jpg);
+    background-image: url(img/fondodesktop.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: 'Podkova', serif;
@@ -342,7 +342,7 @@ h3, h2, h4 {
 }
 @media only screen and (max-width: 480px) {
     body {
-        background-size: cover;
+        background-image: url(img/fondomobile.jpg);
     }
     .pos-f-t {
         display: block;
