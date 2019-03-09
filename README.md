@@ -4,3 +4,4 @@ Realizando un proyecto de banda musical utilizando HTML/CSS/JS, la idea es bási
 
 ![320px mobile](https://github.com/SosegadoWebDev/Proyecto-Integrador/blob/master/img/falkenbach-music.000webhostapp.com_history.html.png)
 ![768px tablet](https://github.com/SosegadoWebDev/Proyecto-Integrador/blob/master/img/falkenbach-music.000webhostapp.com_index.html1.png)
+![1440px desktop](https://github.com/SosegadoWebDev/Proyecto-Integrador/blob/master/img/falkenbach-music.000webhostapp.com_discography.html1.png)
