@@ -4,8 +4,9 @@ $(".imagengaleria").hover (function(){
     $("section").toggleClass("backgroundsection")
     $(".carousel-item").toggleClass("opacidad")
 })
-$(".menuimg p").addClass("backgroundtext")
+$(".menuimg p").addClass("textshadow")
 $("p").addClass("justify")
+
 
 
 

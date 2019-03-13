@@ -32,7 +32,7 @@ nav ul li:hover {
 body { 
     background-image: url(img/fondodesktop.jpg);
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 100% !important;
     font-family: 'Podkova', serif;
     font-weight: bold;
     padding: 0;
@@ -83,8 +83,8 @@ header {
     margin: 0 auto;
     text-align: center;
 }
-.backgroundtext {
-    background-color: rgba(128, 128, 128, 0.2);
+.textshadow {
+    text-shadow: 0px 0px 5px #fff;
 }
 h1 {
     font-size: 40px;
@@ -343,6 +343,8 @@ h3, h2, h4 {
 @media only screen and (max-width: 480px) {
     body {
         background-image: url(img/fondomobile.jpg);
+        background-attachment: fixed !important;
+        background-size: cover !important;
     }
     .pos-f-t {
         display: block;
